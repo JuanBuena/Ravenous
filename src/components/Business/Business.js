@@ -1,20 +1,8 @@
 import React from 'react';
 import './Business.css';
-
-const business = {
-    imageSrc: '<link href="https://fonts.googleapis.com/css?family=Work%20Sans:300,500,600" rel="stylesheet">',
-    name: 'MarginOtto Pizzeria',
-    address: '1010 Paddington Way',
-    city: 'Flavortown',
-    state: 'NY',
-    zipCode: '10101',
-    category: 'Italian',
-    rating: 4.5,
-    reviewCount: 90
-};
-
 class Business extends React.Component {
     render() {
+        const { business } = this.props;
         return (
             <div className="Business">
                 <div className="image-container">
