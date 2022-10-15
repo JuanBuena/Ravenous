@@ -1,4 +1,4 @@
-const config = require('../../config');
+const config = require('../config');
 const apiKey = config.key;
 
 // Object will store the functionality needed to interact with the Yelp API.
