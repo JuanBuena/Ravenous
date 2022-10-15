@@ -1,4 +1,4 @@
-# :globe_with_meridians: [Ravenous]
+# :globe_with_meridians: Ravenous
 
 ## :books: Table of Contents
 + Description
