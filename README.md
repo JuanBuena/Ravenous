@@ -1,5 +1,5 @@
 # :globe_with_meridians: Ravenous
-<img src="./giphy.gif" alt="RavenousProject">
+<iframe src="https://giphy.com/embed/y8KrnJsztdMixJKVjL" width="480" height="282" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/y8KrnJsztdMixJKVjL">via GIPHY</a></p>
 ## :books: Table of Contents
 + Description
 + Technologies
