@@ -1,5 +1,5 @@
 # :globe_with_meridians: Ravenous
-<img src="./giphy.mp4" alt="RavenousProject">
+<img src="./ezgif.com.com-gif-maker.gif" alt="RavenousProject">
 
 ## :books: Table of Contents
 + Description
