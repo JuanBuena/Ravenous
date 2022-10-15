@@ -1,3 +1,32 @@
+# :globe_with_meridians: [Ravenous](https://juanbuena.me/)
+
+## :books: Table of Contents
++ Description
++ Technologies
++ About
+
+### :memo: Description
+In this project, a website will be built using JavaScript and React to build a Yelp-like clone called "Ravenous".
+
+Project Objectives:
++ Create Static Components
++ Pass Information to Components
++ Set the State of Ravenous Components
++ Interact with the Yelp API
+
+Ravenous Functions:
++ As a user, I should be able to search for restaurants
++ As a user, I should be able to view a list of restaurants returned by the YELP API
++ As a user, I should be able to sort through restaurants using a filter
+### :computer: Technologies
++ HTML5/CSS/JavaScript
++ Git/Github/Github Pages
++ VSCode
+
+### :briefcase: About
+:spades: [@JuanBuena](https://github.com/JuanBuena) :spades:
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,4 +97,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Ravenous

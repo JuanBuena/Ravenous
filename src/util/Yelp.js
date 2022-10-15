@@ -1,15 +1,21 @@
-const apiKey = 'tMhNb0qoRwSIOjJpaEuySFnf_mTHzCYb1Zf9NK_KSUy3mK-NRJ83CmDmBs0jRSFSIi5hiThnV1yCXsNBAsWlOaS8wxSpEqHia3Zbr77oRKE1IFGJY_HaQ9eCmI-8YnYx';
+const config = require('../../config');
+const apiKey = config.key;
 
+// Object will store the functionality needed to interact with the Yelp API.
 const Yelp = {
+    // Method used to retrive search results from the Yelp API
     searchYelp(term, location, sortBy) {
+        // Return a promise, will retrieve businesses
         return fetch(`https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${term}&location=${location}&sort_by=${sortBy}`, {
+            // Present a form of identification for the browser to know that we are authorized to access the API
             headers: {
                 Authorization: `Bearer ${apiKey}`
             },
-        }).then((response) => {
+        }).then((response) => { // Convert the returned response to JSON for us to be able to effectively utilize our list of businessses.
             return response.json();
-        }).then((jsonResponse) => {
-            if (jsonResponse.businesses) {
+        }).then((jsonResponse) => { // Retrieve the list of businesses from the converted JSON response.
+            if (jsonResponse.businesses) {  // Checks to see if jsonResponse has a business key (valid response returned by the Yelp API)
+                // Return an array that has all of the business' properties needed, iterate through jsonResponse.businesses using map()
                 return jsonResponse.businesses.map((business) => ({
                         id: business.id,
                         imageSrc: business.image_url,

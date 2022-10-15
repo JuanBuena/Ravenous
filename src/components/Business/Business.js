@@ -1,8 +1,9 @@
 import React from 'react';
 import './Business.css';
+/* React Component called Business will be used to represent how a business (a restaurant) will be formatted and styled. */
 class Business extends React.Component {
     render() {
-        const { business } = this.props;
+        const { business } = this.props;    // Business object being returned through the prop object set in BusinessList.js
         return (
             <div className="Business">
                 <div className="image-container">
