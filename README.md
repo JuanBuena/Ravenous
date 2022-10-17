@@ -14,6 +14,7 @@ Project Objectives:
 + Pass Information to Components
 + Set the State of Ravenous Components
 + Interact with the Yelp API
++ P.S. Link used for CORS restrictions. (https://cors-anywhere.herokuapp.com/corsdemo)
 
 Ravenous Functions:
 + As a user, I should be able to search for restaurants
